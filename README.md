@@ -32,7 +32,7 @@ Please follow below link for the setup process of tailwind using postcss.
 ```bash
 VITE_API_SERVER=*Teknorix api base url*
 ```
-Replace the placeholder values with your actual API keys provided by Teknorix.
+Replace the placeholder values with your actual API BASE URL provided by Teknorix.
 
 6. Start the development server:
 ```bash

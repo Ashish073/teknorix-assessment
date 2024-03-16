@@ -82,7 +82,7 @@
 }
 
 .job-details-container {
-  @apply my-5 mx-5 md:mx-3;
+  @apply my-5 mx-7 md:mx-6 lg:mx-5;
 }
 
 .back-btn {

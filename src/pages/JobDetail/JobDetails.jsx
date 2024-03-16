@@ -10,6 +10,7 @@ import Loader from '../../components/Loader';
 import JobShare from '../../components/JobShare';
 import { ChevronLeft } from '@mui/icons-material';
 import usePageTitle from '../../hook/usePageTitle';
+import ScrollToTop from '../../components/ScrollToTop';
 
 
 function JobDetails() {
@@ -43,9 +44,10 @@ function JobDetails() {
 
     return (
         <div className="job-details-container">
+            <ScrollToTop />
             <button
                 className='back-btn'
-                onClick={() => navigate('/')}
+                onClick={() => navigate(-1)}
             >
                 <ChevronLeft className="" />
                 <span className='mx-3'>

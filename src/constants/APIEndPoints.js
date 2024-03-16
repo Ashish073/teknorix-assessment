@@ -1,0 +1,6 @@
+export const JOB_LIST = 'jobs'
+export const JOB_DETAIL = 'jobs/:id'
+export const JOB_LOCATION = 'locations'
+export const JOB_DEPARTMENTS = 'departments'
+export const JOB_DIVISIONS = 'divisons'
+export const JOB_FUNCTIONS = 'functions'
